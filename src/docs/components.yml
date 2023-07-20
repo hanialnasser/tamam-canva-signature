@@ -1,0 +1,14 @@
+components:
+  schemas:
+    SignatureImage:
+      type: object
+      properties:
+        signatureCanvasUrl:
+          type: string
+      example:
+        signatureCanvasUrl: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAD6CAYAAACPpxFEAAAABmJLR0QA/wD/AP+gvaeTAAAQOklEQVR4nO3de7CcdXnA8e9JThKaSBJyw0JJNECAkKBpDY0StSBIFQKCCB1Fh1REcSxYLK1WIBbFwrTiiDJKQDFxNFCRpAjUKiWaQosd1GgCiUkRpAEkhFsEzM2c/vG8h3Pb2zm77/7ePfv9zOwsOfvuu0+YZJ/8bs8DkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJk
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
